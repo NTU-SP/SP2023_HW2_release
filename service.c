@@ -10,7 +10,7 @@
 #include <sys/wait.h>
 #include <sys/types.h>
 
-#include "hw2.h"
+#include "util.h"
 
 #define ERR_EXIT(s) perror(s), exit(errno);
 
