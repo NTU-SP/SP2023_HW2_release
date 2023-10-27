@@ -26,7 +26,7 @@ void print_not_exist(char *service_name) {
 }
 
 void print_receive_command(char *service_name, char *cmd) {
-    printf("%s has received: %s\n", service_name, cmd);
+    printf("%s has received %s\n", service_name, cmd);
 }
 
 void print_spawn(char *parent_name, char *child_name) {
